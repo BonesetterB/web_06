@@ -78,6 +78,7 @@ def seed_grades():
     cursor.executemany(sql, grades)
 
 
+
 if __name__ == '__main__':
     seed_teacher()
     seed_groups()
